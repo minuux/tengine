@@ -41,6 +41,7 @@ ENV CONFIG "\
       --with-http_sub_module=shared \
       --with-http_sysguard_module=shared \
       --with-http_reqstat_module=shared \
+      --with-http_concat_module=shared \
       --with-file-aio \
       --with-mail \
       --with-mail_ssl_module \
