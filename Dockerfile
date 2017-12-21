@@ -65,7 +65,7 @@ RUN \
         jemalloc-dev \
         geoip-dev \
     && cd /root \
-    && ./configure $CONFIG --with-debug \
+    && ./configure $CONFIG \
     && make install \
     && chown tengine:www-data /var/log/tengine \
     && chmod 750 /var/log/tengine \
